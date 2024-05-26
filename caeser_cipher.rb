@@ -1,5 +1,3 @@
-
-
 def caeser_cipher(word, key)
     string = ""
     word.bytes do |byte|
@@ -14,5 +12,3 @@ def caeser_cipher(word, key)
 end
 
 caeser_cipher("What a string!", 5)
-# C
-# C
